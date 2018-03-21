@@ -1,28 +1,28 @@
 {
-  "_from": "cordova-plugin-network-information",
-  "_id": "cordova-plugin-network-information@2.0.1",
+  "_from": "cordova-plugin-network-information@~1.3.3",
+  "_id": "cordova-plugin-network-information@1.3.4",
   "_inBundle": false,
-  "_integrity": "sha1-6QQh9DDGq3bUCSI/Jfzvu7zhdpA=",
+  "_integrity": "sha1-KPQmzCZZF03GIqBxgPm6DYVfc4M=",
   "_location": "/cordova-plugin-network-information",
   "_phantomChildren": {},
   "_requested": {
-    "type": "tag",
+    "type": "range",
     "registry": true,
-    "raw": "cordova-plugin-network-information",
+    "raw": "cordova-plugin-network-information@~1.3.3",
     "name": "cordova-plugin-network-information",
     "escapedName": "cordova-plugin-network-information",
-    "rawSpec": "",
+    "rawSpec": "~1.3.3",
     "saveSpec": null,
-    "fetchSpec": "latest"
+    "fetchSpec": "~1.3.3"
   },
   "_requiredBy": [
     "#USER",
     "/"
   ],
-  "_resolved": "https://registry.npmjs.org/cordova-plugin-network-information/-/cordova-plugin-network-information-2.0.1.tgz",
-  "_shasum": "e90421f430c6ab76d409223f25fcefbbbce17690",
-  "_spec": "cordova-plugin-network-information",
-  "_where": "C:\\Users\\ms\\Documents\\GitHub\\meem",
+  "_resolved": "https://registry.npmjs.org/cordova-plugin-network-information/-/cordova-plugin-network-information-1.3.4.tgz",
+  "_shasum": "28f426cc2659174dc622a07180f9ba0d855f7383",
+  "_spec": "cordova-plugin-network-information@~1.3.3",
+  "_where": "C:\\Users\\ms\\Documents\\GitHub\\myApp",
   "author": {
     "name": "Apache Software Foundation"
   },
@@ -33,9 +33,17 @@
   "cordova": {
     "id": "cordova-plugin-network-information",
     "platforms": [
+      "firefoxos",
       "android",
+      "amazon-fireos",
+      "ubuntu",
       "ios",
+      "blackberry10",
+      "wp7",
+      "wp8",
+      "windows8",
       "windows",
+      "tizen",
       "browser"
     ]
   },
@@ -52,7 +60,7 @@
   },
   "engines": {
     "cordovaDependencies": {
-      "3.0.0": {
+      "2.0.0": {
         "cordova": ">100"
       }
     }
@@ -63,9 +71,17 @@
     "network",
     "information",
     "ecosystem:cordova",
+    "cordova-firefoxos",
     "cordova-android",
+    "cordova-amazon-fireos",
+    "cordova-ubuntu",
     "cordova-ios",
+    "cordova-blackberry10",
+    "cordova-wp7",
+    "cordova-wp8",
+    "cordova-windows8",
     "cordova-windows",
+    "cordova-tizen",
     "cordova-browser"
   ],
   "license": "Apache-2.0",
@@ -79,5 +95,5 @@
     "test": "npm run eslint"
   },
   "types": "./types/index.d.ts",
-  "version": "2.0.1"
+  "version": "1.3.4"
 }
