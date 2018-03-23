@@ -1,49 +1,52 @@
 {
-  "prepare_queue": {
-    "installed": [],
-    "uninstalled": []
-  },
-  "config_munge": {
-    "files": {}
-  },
-  "installed_plugins": {
-    "cordova-plugin-battery-status": {
-      "PACKAGE_NAME": "org.myapp.sample"
+    "prepare_queue": {
+        "installed": [],
+        "uninstalled": []
     },
-    "cordova-plugin-camera": {
-      "PACKAGE_NAME": "org.myapp.sample"
+    "config_munge": {
+        "files": {}
     },
-    "cordova-plugin-media-capture": {
-      "PACKAGE_NAME": "org.myapp.sample"
+    "installed_plugins": {
+        "cordova-plugin-battery-status": {
+            "PACKAGE_NAME": "com.vaadaraha.app"
+        },
+        "cordova-plugin-camera": {
+            "PACKAGE_NAME": "com.vaadaraha.app"
+        },
+        "cordova-plugin-media-capture": {
+            "PACKAGE_NAME": "com.vaadaraha.app"
+        },
+        "cordova-plugin-device": {
+            "PACKAGE_NAME": "com.vaadaraha.app"
+        },
+        "cordova-plugin-dialogs": {
+            "PACKAGE_NAME": "com.vaadaraha.app"
+        },
+        "cordova-plugin-geolocation": {
+            "PACKAGE_NAME": "com.vaadaraha.app"
+        },
+        "cordova-plugin-globalization": {
+            "PACKAGE_NAME": "com.vaadaraha.app"
+        },
+        "cordova-plugin-inappbrowser": {
+            "PACKAGE_NAME": "com.vaadaraha.app"
+        },
+        "cordova-plugin-network-information": {
+            "PACKAGE_NAME": "com.vaadaraha.app"
+        },
+        "cordova-plugin-vibration": {
+            "PACKAGE_NAME": "com.vaadaraha.app"
+        },
+        "cordova-plugin-splashscreen": {
+            "PACKAGE_NAME": "com.vaadaraha.app"
+        },
+        "cordova-plugin-whitelist": {
+            "PACKAGE_NAME": "com.vaadaraha.app"
+        }
     },
-    "cordova-plugin-device": {
-      "PACKAGE_NAME": "org.myapp.sample"
-    },
-    "cordova-plugin-dialogs": {
-      "PACKAGE_NAME": "org.myapp.sample"
-    },
-    "cordova-plugin-geolocation": {
-      "PACKAGE_NAME": "org.myapp.sample"
-    },
-    "cordova-plugin-globalization": {
-      "PACKAGE_NAME": "org.myapp.sample"
-    },
-    "cordova-plugin-inappbrowser": {
-      "PACKAGE_NAME": "org.myapp.sample"
-    },
-    "cordova-plugin-network-information": {
-      "PACKAGE_NAME": "org.myapp.sample"
-    },
-    "cordova-plugin-vibration": {
-      "PACKAGE_NAME": "org.myapp.sample"
-    },
-    "cordova-plugin-splashscreen": {
-      "PACKAGE_NAME": "org.myapp.sample"
+    "dependent_plugins": {
+        "cordova-plugin-compat": {
+            "PACKAGE_NAME": "com.vaadaraha.app"
+        }
     }
-  },
-  "dependent_plugins": {
-    "cordova-plugin-file": {
-      "PACKAGE_NAME": "org.myapp.sample"
-    }
-  }
 }
